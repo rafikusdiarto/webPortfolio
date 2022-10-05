@@ -5,23 +5,27 @@
 }
 
 body{
-    background-image: linear-gradient(90deg, #576182, #447aa0, #0194b3, #00aeb6, #1fc5a8);
-}
+    background: rgb(0,171,168);
+    background: radial-gradient(circle, rgba(0,171,168,1) 0%, rgba(35,35,35,1) 100%);}
 
+p{
+    color: #ffff;
+}
 
 .logo a{
     font-size: 25px;
     font-weight: bold;
     float: left;
     text-decoration: none;
-    color: #000000;
+    color: #ffff;
 }
 
-.wrapper{
+.wrapper1{
     width: 1000px;
     margin: auto;
     position: relative;
 }
+
 
 .menu{
     float: right;
@@ -29,11 +33,13 @@ body{
 
 nav{
     width: 100%;
+    backdrop-filter: blur(25px);
     display: flex;
     line-height: 80px;
-    position: sticky;
+    position: fixed;
+    top: 0;
     z-index: 1;
-    border-bottom: 1px solid #2D4059;
+    
 }
 
 nav ul{
@@ -57,3 +63,43 @@ nav ul li a:hover{
     color:burlywood;
 }
 
+/* konten1 */
+
+.wrapper2{
+    width: 1200px;
+    margin-top:100px;
+    position: relative;
+    margin-left: 200px;
+}
+
+section{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.konten1{
+    margin-top: 100px;
+}
+.fotoProfil{
+    width: 600px;
+    height: 500px;
+}
+
+
+.tombol{
+    background-color: #8338ec;
+    margin-top: 50px;
+    color:#ffff;
+    border-style: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.tombol:hover{
+    background-color: #ffff;
+    color: #000000;
+}
