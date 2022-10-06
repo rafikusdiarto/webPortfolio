@@ -82,12 +82,17 @@ nav ul li a:hover{
 }
 
 .konten1{
-    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.konten1 span{
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .konten1 h1{
     font-size: 60px;
-    color: #03071e;
+    color: #0d1321;
     font-family: "Poppins";
     font-weight:bold;
 }
@@ -102,6 +107,7 @@ nav ul li a:hover{
     line-height: 40px;
     vertical-align: middle;
     padding: 20px;
+    box-shadow:20px;
 }
 
 .sosmed {
@@ -279,6 +285,10 @@ nav ul li a:hover{
     font-weight: bold;
     border-radius: 1em;
 }
+
+
+/* blog */
+
 
 
 /* footer */
