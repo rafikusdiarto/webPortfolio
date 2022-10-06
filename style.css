@@ -29,12 +29,11 @@ section{
     color: #ffff;
 }
 
-.wrapper1{
+.navbar{
     width: 1000px;
     margin: auto;
     position: relative;
 }
-
 
 .menu{
     float: right;
@@ -72,9 +71,8 @@ nav ul li a:hover{
     color:burlywood;
 }
 
-
 /* home */
-.wrapper2{
+.container{
     width: 1200px;
     margin-top:100px;
     position: relative;
@@ -97,7 +95,6 @@ nav ul li a:hover{
     font-weight:bold;
 }
 
-
 .circle-icon{
     background: #edede9;
     width: 40px;
@@ -116,11 +113,11 @@ nav ul li a:hover{
     flex-direction: row;
     justify-content: center;
 }
+
 .fotoProfil{
     width: 600px;
     height: 500px;
 }
-
 
 .tombol{
     background-color: #8338ec;
@@ -139,6 +136,7 @@ nav ul li a:hover{
     background-color: #ffff;
     color: #000000;
 }
+
 
 /* portfolio */
 #portfolio{
@@ -262,12 +260,7 @@ nav ul li a:hover{
     flex: 25%;
     padding: 0 4px;
     position: relative;
-    /* width: 50%; */
 }
-
-/* .column1 img {
-    width: 100%;
-} */
 
 .image {
     opacity: 1;
