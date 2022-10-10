@@ -68,7 +68,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:burlywood;
+    color:#8338ec;
 }
 
 /* home */
@@ -299,8 +299,31 @@ nav ul li a:hover{
 
 
 /* blog */
+.wrapper2 h3{
+    margin-top: 80px;
+}
 
+.kontenBlog{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
 
+.deskripsiBlog{
+    margin-left: 20px;
+}
+
+.deskripsiBlog a{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.deskripsiBlog a:hover{
+    font-weight: bolder;
+    color: #8338ec;
+}
 
 /* footer */
 #copyright{
