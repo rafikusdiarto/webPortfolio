@@ -90,7 +90,8 @@ nav ul li a:hover{
 
 .konten1 h1{
     font-size: 60px;
-    color: #0d1321;
+    /* color: #fdf0d5; */
+    color: #d1be9c;
     font-family: "Poppins";
     font-weight:bold;
 }
